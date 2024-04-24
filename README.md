@@ -7,13 +7,13 @@ This repository contains Jupyter notebooks demonstrating the data cleaning and t
 ### LendingClub_Intro.ipynb: 
 This introductory notebook provides an overview of the dataset and project objectives. It sets the stage for subsequent data cleaning and transformation tasks.
 
-### LendingClub_DataCleaning_S1.ipynb: 
+### LendingClub DataCleaning S1.ipynb: 
 This notebook showcases various data cleaning steps, such as renaming columns, adding an ingestion date, removing duplicate rows, handling missing values, and cleaning specific columns like emp_length and address_state. It utilizes PySpark transformations like withColumn, dropDuplicates, and fillna to accomplish these tasks.
 
-### LendingClub_DataCleaning_S2.ipynb: 
+### LendingClub DataCleaning S2.ipynb: 
 The second data cleaning notebook applies additional transformations, focusing on data type consistency, null value handling, and cleaning columns like loan_term_months and loans_purpose. PySpark functions like selectExpr, cast, and dropna are used for these operations.
 
-### LendingClub_DataCleaning_S3.ipynb and LendingClub_DataCleaning_S4.ipynb: 
+### LendingClub DataCleaning S3.ipynb and S4.ipynb: 
 These notebooks demonstrate further data cleaning and transformation processes using PySpark. Techniques like filter, groupBy, agg, and withColumnRenamed are employed to enhance data quality and structure.
 
 ## Key PySpark Features
